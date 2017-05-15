@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 10 - IMB </title>
+    <script type="text/javascript">
+        function startUp(n) {
+
+
+            var total = n;
+            var countUp = 1;
+
+            for(var t = 0; t < total; t++){
+                for(var s = 0; s < total; s++){
+                    if(s<total-countUp){
+                        document.write('&nbsp;&nbsp;');
+                    }
+                    else{
+                        document.write('#');
+                    }
+
+                }
+                countUp++;
+                document.write('<br/>');
+            }
+
+
+        }
+    </script>
+</head>
+<body onload="startUp(10);">
+</body>
+</html>

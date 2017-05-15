@@ -1,0 +1,27 @@
+body
+{
+    position: relative;
+    background-color:ButtonFace;
+}
+.TxtBox
+{
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 8pt;
+    color: black;
+    height: 19px;
+    background-color:aliceblue;
+    width: 200px;
+    border: 1px solid #07A2FE;
+    display: block;
+    margin: 4px;
+}
+.BtnButton
+{
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 8pt;
+    color: black;
+    background-color: lightgray;
+    height: 24px;
+    cursor: pointer;
+    float: left;
+}

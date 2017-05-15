@@ -1,0 +1,22 @@
+body{
+    position: relative;
+
+}
+.btn{
+    background: lightgray;
+    width: 90px;
+    height: 20px;
+    border: 1px solid black;
+    padding-right: 5px;
+    margin: 0 auto;
+
+}
+
+#display {
+    height: 30px;
+    width: 80%;
+    background: lavender;
+    border: 1px solid black;
+    color: black;
+    margin: 0 auto;
+}
